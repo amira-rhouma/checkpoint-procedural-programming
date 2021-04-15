@@ -23,7 +23,7 @@ VAR
    i:INTEGER:=0;
 BEGIN
    FOR i FROM 0 TO n   DO
-   ps:=ps+v1[i]*v2[i]
+   ps:=ps+v1[i]*v2[i];
       
    END_FOR
 END
@@ -35,6 +35,6 @@ VAR
 BEGIN
   read(l);
    read-vect(l,v1,v2);
-  produit-scalaire(ps,l,v1,v2)
+  produit-scalaire(ps,l,v1,v2);
    vect-orto(l);
 END
